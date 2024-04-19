@@ -22,7 +22,7 @@ public class StudentServiceImpl implements StudentService {
     public SessionFactory sessionFactory;
      *     deja appelé en DAOOOOOOOOOOOOOO  et c est ca qui a causé le conflict
      */
-
+// ce n est pas logique
 
 @Autowired
     private StudentDAO studentDao;

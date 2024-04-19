@@ -19,6 +19,7 @@ public class CourseDAOImpl implements CourseDAO {
 
     @Autowired
     public SessionFactory sessionFactory;
+    // ici c est logique
 
     @Override
     public void saveCourse(CourseDTO course) {
